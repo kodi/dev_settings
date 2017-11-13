@@ -1,0 +1,3 @@
+defscrollback 10000
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %c"
+termcapinfo xterm 'hs:ts=\E]2;:fs=\007:ds=\E]2;screen\007'
