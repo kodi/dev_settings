@@ -1,0 +1,11 @@
+{
+    //EDITOR
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Essential PragmataPro', 'Fira Code', 'Andale Mono', Menlo, Monaco, monospace",
+    
+    // TERM
+    "terminal.integrated.fontFamily": "'Essential PragmataPro', 'Fira Code'",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.enableBold": false,
+    "terminal.integrated.lineHeight": 1.1
+}
