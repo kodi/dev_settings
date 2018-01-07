@@ -1,11 +1,28 @@
 {
-    //EDITOR
+    // ----------------------
+    // EDITOR
+    // ----------------------
+    "editor.fontFamily": "'Essential PragmataPro', 'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
     "editor.fontSize": 14,
-    "editor.fontFamily": "'Essential PragmataPro', 'Fira Code', 'Andale Mono', Menlo, Monaco, monospace",
+    "editor.lineHeight": 15,
+    "editor.colorDecorators": false,
+
+
+    // ----------------------
+    // Integrated Terminal
+    // ----------------------
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontSize": 14,
     
-    // TERM
-    "terminal.integrated.fontFamily": "'Essential PragmataPro', 'Fira Code'",
-    "terminal.integrated.fontSize": 13,
-    "terminal.integrated.enableBold": false,
-    "terminal.integrated.lineHeight": 1.1
+    "workbench.colorCustomizations" : {
+        "activityBar.background": "#121212",
+        "terminal.foreground" : "#d5eed5",
+        "terminal.background" : "#0a0a0a"
+    },
+    
+    "[typescript]": {
+        
+    },
+    "workbench.iconTheme": "vscode-icons"
 }
