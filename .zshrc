@@ -86,3 +86,6 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="$HOME/.yarn/bin:$PATH"
 source /Users/kodi/.npm-run.plugin.zsh/npm-run.plugin.zsh
+
+
+export PATH="/Users/kodi/automate-scripts/bin:$PATH"
