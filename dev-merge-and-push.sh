@@ -45,6 +45,15 @@ printf "$blue" "Checkout $TARGET "
 printf "$green" "------------------------------------"
 
 git checkout $TARGET
+# Ensure TARGET  directory is clean
+git update-index -q --refresh
+if ! git diff-index --quiet HEAD --; then
+  echo "😓 Target not clean, please commit your changes first"
+  exit
+fi
+
+git pull
+
 
 printf "$blue" "Merge $version -> $TARGET 🤞"
 printf "$green" "------------------------------------"
